@@ -1,0 +1,38 @@
+[
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 20,
+        "codigo_agrupacion": 131,
+        "votos_agrupacion": 63738,
+        "porc_final_agrupacion": 6141,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 20,
+        "codigo_agrupacion": 135,
+        "votos_agrupacion": 26908,
+        "porc_final_agrupacion": 2592,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 20,
+        "codigo_agrupacion": 177,
+        "votos_agrupacion": 10895,
+        "porc_final_agrupacion": 1050,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 20,
+        "codigo_agrupacion": 137,
+        "votos_agrupacion": 2251,
+        "porc_final_agrupacion": 217,
+        "cargos_electos": 0
+    }
+]

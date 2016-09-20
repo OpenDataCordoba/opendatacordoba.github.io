@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Elecciones 2015 Argentina - PrimerVueltometro</title>
+	<script src="jquery-1.11.3.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./flot/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="./flot/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="./flot/jquery.flot.stack.js"></script>    
+	
+    <script src="data.js"></script>
+    <script type="text/javascript">
+    var data = {
+            "faltante": [
+                2.1999999999999957,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "candidatos": [
+                "Massa",
+                "Del Caño",
+                "Macri",
+                "Scioli",
+                "Stolbizer",
+                "Rodríguez Saa"
+            ],
+            "porcentajes": [
+                37.800000000000004,
+                19.55,
+                15.23,
+                13.08,
+                8.49,
+                5.8500000000000005
+            ]
+        };
+    </script>
+    <script type="text/javascript">
+        $(function() {
+
+            var porcentajes = data["porcentajes"];
+            var faltante = data["faltante"];
+
+            var stack = 0,
+                bars = true,
+                lines = false,
+                steps = false;
+
+            function plotWithOptions() {
+                $.plot("#placeholder", [ porcentajes, faltante ], {
+                    series: {
+                        stack: stack,
+                        lines: {
+                            show: lines,
+                            fill: true,
+                            steps: steps
+                        },
+                        bars: {
+                            show: bars,
+                            barWidth: 0.6
+                        }
+                    }
+                });
+            }
+
+            plotWithOptions();
+
+
+    });
+
+    </script>       
+</head>
+<body>
+    <div id="header">
+        <h2>PrimerVueltómetro</h2>
+    </div>
+    <div id="content">
+        <div class="demo-container">
+            <div id="placeholder" class="demo-placeholder" style="padding: 0px; position: relative;"></div>
+        </div>
+    </div> 
+</body>
+</html>

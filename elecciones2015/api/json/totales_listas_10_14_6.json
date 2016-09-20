@@ -1,0 +1,110 @@
+[
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 501,
+        "votos_agrupacion": 765,
+        "porc_final_agrupacion": 4631,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 3,
+        "votos_agrupacion": 399,
+        "porc_final_agrupacion": 2415,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 402,
+        "votos_agrupacion": 298,
+        "porc_final_agrupacion": 1804,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 251,
+        "votos_agrupacion": 62,
+        "porc_final_agrupacion": 375,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 192,
+        "votos_agrupacion": 50,
+        "porc_final_agrupacion": 303,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 508,
+        "votos_agrupacion": 35,
+        "porc_final_agrupacion": 212,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 75,
+        "votos_agrupacion": 16,
+        "porc_final_agrupacion": 97,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 103,
+        "votos_agrupacion": 15,
+        "porc_final_agrupacion": 91,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 64,
+        "votos_agrupacion": 6,
+        "porc_final_agrupacion": 36,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 72,
+        "votos_agrupacion": 4,
+        "porc_final_agrupacion": 24,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 68,
+        "votos_agrupacion": 2,
+        "porc_final_agrupacion": 12,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 5,
+        "minuto": 5,
+        "codigo_agrupacion": 406,
+        "votos_agrupacion": 0,
+        "porc_final_agrupacion": 0,
+        "cargos_electos": 0
+    }
+]
