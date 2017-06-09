@@ -6,59 +6,103 @@
         <meta name="description" content="Datos abiertos en Córdoba, Argentina" />
         <meta name="keywords" content="Open Data, cordoba, argentina, datos abiertos" />
         <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-        <script src="js/skel.min.js"></script>
-        <script src="js/init.js"></script>
-        <noscript>
-        <link rel="stylesheet" href="css/skel.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-wide.css" />
-        <link rel="stylesheet" href="css/style-noscript.css" />
-        </noscript>
         <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
         <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/datamade.css"/>
     </head>
-    <body class="loading">
-        <div id="wrapper">
-            <div id="bg"></div>
-            <div id="overlay"></div>
-            <div id="main">
-
-                <!-- Header -->
-                <header id="header">
-                    <h1>Open Data Córdoba</h1>
-                    <p>Datos abiertos para Córdoba, Argentina</p>
-                    <nav>
-                        <ul>
-                            <li><a target="_blank" href="https://twitter.com/opendatacba" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                            <!-- <li><a target="_blank" href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
-                            <li><a target="_blank" href="https://github.com/OpenDataCordoba" class="icon fa-github"><span class="label">Github</span></a></li>
-                            <li><a target="_blank" href="https://groups.google.com/forum/#!forum/open-data-cordoba" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-                            <li><a target="_blank" href="http://opendatacordoba.org/blog" class="icon fa-coffee"><span class="label">Blog</span></a></li>
-                            
-                        </ul>
-                    </nav>
-                    <p><a href='mailto:info@opendatacordoba.org'>info@opendatacordoba.org</a></p>
-                </header>
-
-                <!-- Footer -->
-                <footer id="footer">
-                    <span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Imagen de Anisacate- Córdoba</span>
-                </footer>
-
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class='row'>
+                    <div class='col-sm-10 col-sm-offset-1'>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/">
+                                <img alt="Open Data Córdoba" src="/images/logo.png">
+                            </a>
+                        </div>
+                        <div id="navbar" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li class="">
+                                    <a href="/index.html"><i class='fa fa-home'></i></a>
+                                </li>
+                                <!-- <li class="">
+                                    <a href="/our-work/index.html">Nuestro Trabajo</a>
+                                </li> -->
+                                <li class="">
+                                    <a href="/blog/index.html">Blog</a>
+                                </li>
+                                <li class="">
+                                    <a href="/about-us/index.html">Acerca de</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class='container-fluid'>
+            <div class='row'>
+                <div class='col-sm-10 col-sm-offset-1'>
+                    <h2>
+                    <a href='/blog'>
+                        Blog
+                    </a>
+                    </h2>
+                    <div class='row'>
+                        <div class='col-sm-4'>
+                            <a href='/blog/councilmatic-arrives-in-la'><img class='img-thumbnail img-responsive' src='/images/blog/2017-05-17-councilmatic-arrives-in-la/metro-maps.gif' alt='Councilmatic arrives in Los Angeles' /></a>
+                        </div>
+                        <div class='col-sm-8'>
+                            <h4>
+                            <a href='/blog/councilmatic-arrives-in-la'>Councilmatic arrives in Los Angeles</a>
+                            </h4>
+                            <p>
+                                <small>
+                                May 17, 2017 by
+                                <a class='muted' href='https://twitter.com/reginafcompton'>Regina Compton</a>
+                                </small><br/>
+                                <p>DataMade launches a new version of Councilmatic for the Los Angeles County Metropolitan Transportation Authority to help the public keep track of their Board of Directors, meetings, and reports.</p>
+                                <a href='/blog/councilmatic-arrives-in-la'>Read&nbsp;more&nbsp;&raquo;</a>
+                            </p>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54330538-1', 'auto');
-  ga('send', 'pageview');
-
-</script>        
-        
-        
+        <footer class='footer'>
+            <div class='container-fluid'>
+                <div class='row'>
+                    <div class='col-sm-3 col-sm-offset-9'>
+                        <small>
+                        <strong>Contacto</strong><br />
+                        <i class='fa fa-envelope'></i> <a href='mailto:info@opendatacordoba.org'>info@opendatacordoba.org</a>
+                        <br />
+                        <i class='fa fa-twitter'></i>
+                        <a href='https://twitter.com/OpenDataCba'>@OpenDataCba</a>
+                        <br />
+                        &copy; 2017 Open Data Córdoba
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-54330538-1', 'auto');
+        ga('send', 'pageview');
+        </script>
     </body>
 </html>
