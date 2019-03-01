@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>PrimerVueltómetro</title>
+	<link href="./static/examples.css" rel="stylesheet" type="text/css">
+	<script language="javascript" type="text/javascript" src="./static/jquery.js"></script><style type="text/css"></style>
+	<script language="javascript" type="text/javascript" src="./static/jquery.flot.js"></script>
+	<script language="javascript" type="text/javascript" src="./static/jquery.flot.stack.js"></script>
+    <script type="text/javascript">
+	    var data = {
+	            "faltante": 2.1999999999999957,
+	            "candidatos": [
+	                "Massa",
+	                "Del Caño",
+	                "Macri",
+	                "Scioli",
+	                "Stolbizer",
+	                "Rodríguez Saa"
+	            ],
+	            "porcentajes": [
+	                37.800000000000004,
+	                19.55,
+	                15.23,
+	                13.08,
+	                8.49,
+	                5.8500000000000005
+	            ]
+	        };
+
+		var d1 = [];
+		for (var i = 0; i <= 5; i += 1)
+	    	d1.push([data["porcentajes"][i], i]);
+
+		var porcentajes = [];
+		for (var i = 0; i <= 5; i += 1)
+			porcentajes.push(
+		        {
+		            label: data["candidatos"][i],
+		            data: [[data["porcentajes"][i], i]],
+		            bars: {
+		                show: true,
+		                // barWidth: 12,
+		                fill: true,
+		                lineWidth: 1,
+		                order: 1,
+		                fillColor:  "#5184B2"
+		            },
+		            color: "#5184B2"
+		        }
+			);
+
+		var faltante = [
+	        {
+	            label: "Faltante",
+	            data: [[data["faltante"], 0]],
+	            bars: {
+	                show: true,
+	                barWidth: 12,
+	                fill: true,
+	                lineWidth: 1,
+	                order: 1,
+	                fillColor:  "#7AB555"
+	            },
+	            color: "#7AB555"
+	        }
+		];
+
+    </script>
+	<script type="text/javascript">
+		$(function() {
+		    $.plot($("#placeholder"), porcentajes, {
+		        series: {
+		            stack: true,
+		            lines: { show:false },
+		            bars: { show: true, barWidth: 0.6, horizontal:true }
+		        },
+	           	legend: {
+					show: false,
+    			},
+		    });
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<h2>PrimerVueltómetro</h2>
+	</div>
+
+	<div id="content">
+		<div class="demo-container">
+			<div id="placeholder" class="demo-placeholder" style="padding: 0px; position: relative;"><canvas class="flot-base" width="1022" height="517" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 818px; height: 414px;"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 17px; text-align: center;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 92px; text-align: center;">1</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 166px; text-align: center;">2</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 241px; text-align: center;">3</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 315px; text-align: center;">4</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 390px; text-align: center;">5</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 464px; text-align: center;">6</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 539px; text-align: center;">7</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 613px; text-align: center;">8</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 688px; text-align: center;">9</div><div class="flot-tick-label tickLabel" style="position: absolute; max-width: 68px; top: 395px; left: 759px; text-align: center;">10</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div class="flot-tick-label tickLabel" style="position: absolute; top: 382px; left: 9px; text-align: right;">0</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 327px; left: 2px; text-align: right;">10</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 273px; left: 2px; text-align: right;">20</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 218px; left: 2px; text-align: right;">30</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 164px; left: 2px; text-align: right;">40</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 109px; left: 2px; text-align: right;">50</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 55px; left: 2px; text-align: right;">60</div><div class="flot-tick-label tickLabel" style="position: absolute; top: 1px; left: 2px; text-align: right;">70</div></div></div><canvas class="flot-overlay" width="1022" height="517" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 818px; height: 414px;"></canvas></div>
+		</div>
+	</div>
+</body></html>

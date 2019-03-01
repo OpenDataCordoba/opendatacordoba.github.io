@@ -1,0 +1,92 @@
+[
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 900,
+        "votos_agrupacion": 373543,
+        "porc_final_agrupacion": 6348,
+        "cargos_electos": 14
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 903,
+        "votos_agrupacion": 78214,
+        "porc_final_agrupacion": 1329,
+        "cargos_electos": 3
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 905,
+        "votos_agrupacion": 50778,
+        "porc_final_agrupacion": 863,
+        "cargos_electos": 1
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 907,
+        "votos_agrupacion": 38502,
+        "porc_final_agrupacion": 654,
+        "cargos_electos": 1
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 902,
+        "votos_agrupacion": 34954,
+        "porc_final_agrupacion": 594,
+        "cargos_electos": 1
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 71,
+        "votos_agrupacion": 4030,
+        "porc_final_agrupacion": 68,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 625,
+        "votos_agrupacion": 3114,
+        "porc_final_agrupacion": 53,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 906,
+        "votos_agrupacion": 2426,
+        "porc_final_agrupacion": 41,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 901,
+        "votos_agrupacion": 1980,
+        "porc_final_agrupacion": 34,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 8,
+        "minuto": 20,
+        "codigo_agrupacion": 616,
+        "votos_agrupacion": 916,
+        "porc_final_agrupacion": 16,
+        "cargos_electos": 0
+    }
+]

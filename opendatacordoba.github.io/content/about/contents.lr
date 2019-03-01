@@ -1,0 +1,72 @@
+title: Sobre Nosotros
+---
+body:
+
+<div class="row">
+    <div class="col-sm-10">
+        <p>
+            DataMade is a civic technology company. We build open source technology using open data to empower journalists, researchers, governments and advocacy organizations.
+        </p>
+        <p></p>
+        <h2 id="team">Equipo</h2>
+        <div class="row team">
+            <div class="col-sm-4">
+                <img class="img-circle" src="/images/people/pablocelayes.png">
+                <h4>
+                Pablo Celayes
+                <br><small>Founder and Partner</small>
+                <br>
+                <a href="https://twitter.com/tuitero">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://github.com/githubero">
+                    <i class="fa fa-github"></i>
+                </a>
+                </h4>
+                <p>
+                    Derek is a web developer with a passion for open government, open source and open data. He is a co-founder of
+                    <a href="http://opencityapps.org">Open City</a> and organizer of <a href="http://chihacknight.org/">Chi Hack Night</a>.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle" src="/images/people/forest-gregg.jpg">
+                <h4>
+                Forest Gregg
+                <br><small>Partner</small>
+                <br>
+                <a href="https://github.com/fgregg">
+                    <i class="fa fa-github"></i>
+                </a>
+                </h4>
+                <p>Forest is a Sociology Ph.D. student at the University of Chicago with a background in machine learning and statistics.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle" src="/images/people/eric-van-zanten.jpg">
+                <h4>
+                Eric van Zanten
+                <br><small>Senior Developer</small>
+                <br>
+                <a href="https://twitter.com/evanzanten">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://github.com/evz">
+                    <i class="fa fa-github"></i>
+                </a>
+                </h4>
+                <p>Eric is a web developer with expertise in Python and APIs. He has built several civic projects in Chicago including <a href="http://www.crimearound.us/">crimearound.us</a>.</p>
+            </div>
+        </div>
+        <hr>
+        <h2 id="where-we-come-from">De dónde venimos</h2>
+        <p>
+            DataMade was born out of Chicago's Open Government community. In 2011, Derek and Forest started
+            working on civic technology as volunteers of <a href="http://opencityapps.org/">Open City</a>. At nights and over weekends, they've helped make civic apps like <a href="http://www.chicagolobbyists.org/">Chicago Lobbyists</a>, <a href="http://clearstreets.org/">Clear Streets</a>, and <a href="http://secondcityzoning.org/">Second City Zoning</a>.
+        </p>
+        <p>
+            In 2012, DataMade was founded to deepen and sustain the impact of civic technology.
+        </p>
+        <h2 id="datamade-and-open-city">DataMade and Open City</h2>
+        <p>Members of DataMade continue to prototype civic apps under the <a href="http://opencityapps.org/">Open City</a> banner to allow collaboration on open source projects without money or business getting in the way. When asked to re-deploy one of these apps (like <a href="http://datamade.us/products/look-at-cook/">Look at Cook</a>), the work is done by DataMade and kept as open source.</p>
+        <p>DataMade also acts as the fiscal agent for the <a href="http://chihacknight.org/">Chi Hack Night</a> in addition to being a recurring sponsor.</p>
+    </div>
+</div>

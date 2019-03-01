@@ -1,0 +1,29 @@
+[
+    {
+        "dia": 26,
+        "hora": 7,
+        "minuto": 20,
+        "codigo_agrupacion": 502,
+        "votos_agrupacion": 16103,
+        "porc_final_agrupacion": 5301,
+        "cargos_electos": 1
+    },
+    {
+        "dia": 26,
+        "hora": 7,
+        "minuto": 20,
+        "codigo_agrupacion": 501,
+        "votos_agrupacion": 11852,
+        "porc_final_agrupacion": 3901,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 7,
+        "minuto": 20,
+        "codigo_agrupacion": 23,
+        "votos_agrupacion": 2425,
+        "porc_final_agrupacion": 798,
+        "cargos_electos": 0
+    }
+]

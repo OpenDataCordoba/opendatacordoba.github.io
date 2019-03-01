@@ -1,0 +1,56 @@
+[
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 501,
+        "votos_agrupacion": 3523,
+        "porc_final_agrupacion": 5163,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 518,
+        "votos_agrupacion": 2977,
+        "porc_final_agrupacion": 4363,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 821,
+        "votos_agrupacion": 206,
+        "porc_final_agrupacion": 302,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 153,
+        "votos_agrupacion": 63,
+        "porc_final_agrupacion": 92,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 68,
+        "votos_agrupacion": 35,
+        "porc_final_agrupacion": 51,
+        "cargos_electos": 0
+    },
+    {
+        "dia": 26,
+        "hora": 1,
+        "minuto": 35,
+        "codigo_agrupacion": 526,
+        "votos_agrupacion": 19,
+        "porc_final_agrupacion": 28,
+        "cargos_electos": 0
+    }
+]
